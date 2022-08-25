@@ -1,0 +1,4 @@
+@mixin mixin-example ($length, $color) {
+  length: $length;
+  color: $color;
+}

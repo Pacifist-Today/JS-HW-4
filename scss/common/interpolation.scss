@@ -1,0 +1,8 @@
+$icon-name: 'user';
+
+.icon-#{$icon-name}{
+  background-image: url("#{$icon-name}");
+  background-position: center;
+  width:10px;
+  height:10px;
+}

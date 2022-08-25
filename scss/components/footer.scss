@@ -1,0 +1,242 @@
+.footer_block {
+  display: flex;
+  background: #26282C;
+  padding-left: 40px;
+  padding-top: 47px;
+  padding-bottom: 22px;
+}
+
+.contacts_address {
+  width: 199px;
+  margin-right: 91px;
+}
+
+.footer_address {
+  display: flex;
+  @extend footers_main;
+  margin-top: 16px;
+  margin-bottom: 21px;
+}
+
+.physical_address {
+  margin-left: 10px;
+}
+
+.footer_phone_block {
+  display: flex;
+  @extend footers_main;
+  margin-top: 21px;
+  margin-bottom: 22px;
+}
+
+.phone_number {
+  margin-left: 10px;
+}
+
+.footer_mail_block {
+  display: flex;
+  align-self: center;
+  margin-top: 21px;
+  margin-bottom: 22px;
+}
+
+.email_address {
+  @extend footers_main;
+  margin-left: 10px;
+}
+
+.footer_categories {
+  display: flex;
+}
+
+.footer_category {
+  @extend footers_category
+}
+
+.subcategory {
+  @extend footers_main;
+  text-decoration: none;
+  margin-bottom: 2px;
+}
+
+.subcategory:last-child {
+  margin-bottom: 0;
+}
+
+.footer_category_product  {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_category_applications {
+  margin-left: 51px;
+  margin-right: 52px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_category_myprofile {
+  display: flex;
+  flex-direction: column;
+  margin-right: 58px;
+}
+
+.footer_category_duodisplay {
+  display: flex;
+  flex-direction: column;
+}
+
+.news_media_block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 133px;
+}
+
+.news_letter {
+  @extend footers_category;
+  margin-bottom: 23px;
+}
+
+.enter_email_block {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.enter_email_link {
+  position: absolute;
+  right: 11.57px;
+  top: 16.37px;
+}
+
+.enter_email {
+  @extend grey_counter;
+  padding: 12px 46px 13px 29px;
+  width: 198px;
+  border: 0.5px solid #515151;
+  border-radius: 39px;
+  background: #26282C;
+}
+
+.footer_language_menu {
+  display: flex;
+  align-items: center;
+  padding: 13px 51px 12px 64px;
+  border: 0.5px solid #515151;
+  border-radius: 39px;
+  cursor: pointer;
+}
+
+.language_menu_footer {
+  @extend footers_subcategory;
+  margin-left: 6.25px;
+  margin-right: 6px;
+}
+
+.social_networks {
+  display: flex;
+  margin-top: 32.25px;
+}
+
+.flickr_block {
+  background: linear-gradient(167.84deg, #FF2C91 -55.34%, #921654 91.14%);
+  border-radius: 7.59649px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28.49px;
+  height: 28.49px;
+
+  svg {
+    width: 15.19px;
+    height: 15.19px;
+  }
+
+  .test {
+    justify-content: center;
+    width: 15.19px;
+    height: 15.19px;
+  }
+}
+
+.twitter_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28.49px;
+  height: 28.49px;
+  background: linear-gradient(167.84deg, #00C2FF -55.34%, #18718F 91.14%);
+  border-radius: 7.59649px;
+  margin-left:5.56px;
+  margin-right: 5.57px;
+}
+
+.facebook_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28.49px;
+  height: 28.49px;
+  background: linear-gradient(167.84deg, #2C67FF -55.34%, #1D42A5 91.14%);
+  border-radius: 7.59649px;
+}
+
+.instagram_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28.49px;
+  height: 28.49px;
+  background: radial-gradient(132.53% 132.61% at 29.26% 107.77%, #FFD879 9.69%, #FCCB76 15.39%, #F5AA6C 25.83%, #E9755E 39.76%, #E45F58 44.9%, #D22A9C 67.86%, #6968DF 100%);
+  border-radius: 7.59649px;
+  margin-left: 5.57px;
+  margin-right: 5.56px;
+}
+
+.linkedin_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28.49px;
+  height: 28.49px;
+  background: linear-gradient(167.84deg, #0094FF -55.34%, #135C92 91.14%);
+  border-radius: 7.59649px;
+}
+
+.youtube_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28.49px;
+  height: 28.49px;
+  background: linear-gradient(167.84deg, #FF2C2C -55.34%, #B12728 91.14%);
+  border-radius: 7.59649px;
+  margin-left: 5.56px;
+}
+
+.copyrights_block {
+  display: flex;
+  justify-content: space-between;
+  background: #1E2023;
+  padding: 6px 45px 4px 41px;
+}
+
+.copyright_heart {
+  display: flex;
+  align-items: center;
+}
+
+.heart_url {
+  width: 13.45px;
+  height: 11.84px;
+}
+
+.copyright_info {
+  @extend footers_subcategory;
+  margin-right: 10px;
+}
+
+.anchor {
+  padding: 4.43px 9.72px 4.38px 9.72px;
+  background: #99C63C;
+  border-radius: 17.5px;
+}

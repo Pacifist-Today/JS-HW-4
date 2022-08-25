@@ -1,0 +1,98 @@
+.contact_languages {
+  width: 1200px;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: #F4F4F4;
+  justify-content: space-between;
+}
+
+.contact_info {
+  display: flex;
+  align-items: center;
+
+  &__number {
+    @extend phone_languages;
+    margin-left: 13px;
+  }
+}
+
+.language_menu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &__changing {
+    @extend phone_languages;
+    margin-right: 6.25px;
+    margin-left: 6px;
+  }
+}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 0px 0px 12px rgba(72, 79, 78, 0.17);
+  //transform: matrix(-1, 0, 0, 1, 0, 0);
+
+  &_home {
+    margin-right: 50.25px;
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+    margin-right: 69.25px;
+    padding-top: 44.25px;
+    padding-bottom: 37.25px;
+  }
+
+  &__logo {
+    padding-top: 20.78px;
+    padding-bottom: 20.78px;
+  }
+
+  &_navigation {
+    &_list {    display: flex;
+      padding-top:40px;
+      padding-bottom: 40px;
+
+      &__item {
+        display: flex;
+        align-items: center;
+
+        &_link {
+        display: flex;
+        align-items: center;
+
+        text-decoration: none;
+        @extend menu_subcategory;
+
+          &_svg {
+            margin-right: 30.25px;
+            margin-left: 8.5px;
+          }
+      }
+      }
+  }
+  }
+
+  &_user {
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    justify-self: flex-end;
+
+    margin-left: 325px;
+
+    &__account {
+      margin-right: 20.11px;
+    }
+  }
+}
+
+
